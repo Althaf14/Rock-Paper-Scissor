@@ -1,0 +1,132 @@
+body{
+    margin: 0px;
+    width: 100vw;
+}
+/* *{
+    border: solid rgb(11, 231, 84) 2px;
+} */
+.main-body{
+    width: 100vw;
+    height: 100%;
+   
+}
+.game-ui{
+    width: 60vw;
+    height: 200px;
+    margin-left: 20%;
+    border: solid rgb(7, 10, 190) 2px;
+    display: flex;
+}
+#result-box{
+    font-size: 3em;
+    color: rgb(247, 2, 2);
+    width: 60vw;
+    height: 100px;
+    border: solid rgb(190, 7, 135) 2px;
+    margin-top: 10%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-div{
+    width: 50%;
+    border: solid rgb(55, 113, 180) 2px;
+}
+.cmptr-div{
+    width: 50%;
+    border: solid rgb(123, 168, 18) 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    
+}
+
+#cmptr-display{
+   font-size: 3em;
+   color: rgb(78, 2, 255);
+  
+}
+.cmptr-description{
+    width: 300px;
+    font-size: 1.3em;
+    position: relative;
+    left: 820px;
+    top: 440px;
+}
+.user-description{
+    width: 300px;
+    font-size: 1.3em;
+    position: relative;
+    left: 435px;
+    top: 485px;
+
+}
+.rock{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 155px;
+    justify-content: center;
+}
+.below-btn{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+button{
+    height: 50px;
+    width: 100px;
+    border-radius: 9px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width:767px){
+.game-ui {
+        width: 80vw;
+        height: 200px;
+        margin-left: 40px;
+    }
+button{
+        font-size: 8px;
+        height: 30px;
+        width: 50px;
+        border-radius: 9px;
+    }    
+.rock{
+        display: flex;
+        margin-top: 40px;
+        margin-left: 25px;
+        justify-content: center;
+    }  
+#result-box{
+        font-size: 2em;
+        width: 80vw;
+        height: 100px;
+        margin-top: 50%;
+        margin-left: 10%;      
+
+}
+#cmptr-display{
+    font-size: 2em;
+}
+.cmptr-description{
+    font-size: 1em;
+    position: relative;
+    left: 70px;
+    top: 510px;
+}
+.user-description{
+    font-size: 1.1em;
+    position: relative;
+    left: 245px;
+    top: 545px;
+}
+    
+}
