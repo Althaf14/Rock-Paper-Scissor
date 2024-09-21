@@ -121,12 +121,15 @@ button{
     position: relative;
     left: 230px;
     top: 510px;
+    width: 140px;
+
 }
 .user-description{
     font-size: 1.1em;
     position: relative;
     left: 85px;
     top: 545px;
+    width: 140px;
 }
     
 }
