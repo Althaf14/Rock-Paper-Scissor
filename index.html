@@ -1,45 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Monomaniac+One&display=swap"
+        rel="stylesheet">
     <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="main-body">
-        <p class="user-description">User Choice</p>
+    <div class="game-ui">
+        <p class="user-description">Player Choice</p>
         <p class="cmptr-description">Computer Choice</p>
-        <div id="result-box">
-                
+        <div id="result-box" class="result-box">
 
         </div>
-        <div class="game-ui">
-            
-            <div class="btn-div" id="btn-div">
-                <div class="rock btn">
-                    <button onclick="selection('Rock')">ROCK</button>
-                </div>
-                <div class="below-btn">
-                    <div class="paper btn ">
-                        <button onclick="selection('Paper')">PAPER</button>
-                    </div>
-                    <div class="scissor btn ">
-                        <button onclick="selection('Scissor')">SCISSOR</button>
-                    </div>
-                </div>
+
+
+        <div class="btn-div" id="btn-div">
+            <div class="rock btn">
+                <button onclick="selection('Rock')"><img src="icons/stone.png" alt="Rock"></button>
             </div>
-            <div class="cmptr-div">
-                
-                <div class="cmptr-display-div">
-                    <div id="cmptr-display">
-                     
-                    </div>
+            <div class="paper btn">
+                <button onclick="selection('Paper')"><img src="icons/papper.png" alt="Paper"></button>
+            </div>
+            <div class="scissor btn">
+                <button onclick="selection('Scissor')"><img src="icons/scissors.png" alt="Scissors"></button>
+            </div>
+
+        </div>
+     
+
+        <div class="user-display-div">
+            <div id="user-display">
+        
+            </div>
+        </div>
+
+        <div class="cmptr-div" >
+
+            <div class="cmptr-display-div" >
+                <div id="cmptr-display">
+                    
                 </div>
             </div>
         </div>
+
 
     </div>
     <script src="main.js"></script>
 </body>
+
 </html>

@@ -1,90 +1,110 @@
 body{
     margin: 0px;
     width: 100vw;
+    background-color: rgb(3, 9, 20);
+    color: #fff;
+    font-family: "Monomaniac One", serif;
+    font-weight: 100;
+    font-style: normal;
+    --lights:rgb(59, 35, 196);
 }
-/* *{
-    border: solid rgb(11, 231, 84) 2px;
-} */
+
 .main-body{
     width: 100vw;
     height: 100%;
    
 }
-.game-ui{
-    width: 60vw;
-    height: 200px;
-    margin-left: 20%;
-    border: solid rgb(7, 10, 190) 2px;
-    display: flex;
-}
-#result-box{
-    font-size: 3em;
-    color: rgb(247, 2, 2);
+
+.result-box{
+    font-family: "Monomaniac One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4em;
     width: 60vw;
     height: 100px;
-    border: solid rgb(190, 7, 135) 2px;
+    /* border: solid rgb(190, 7, 135) 2px; */
     margin-top: 10%;
     margin-left: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-shadow: 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 1vh var(--lights);
+
+
 }
 .btn-div{
     width: 50%;
-    border: solid rgb(55, 113, 180) 2px;
-}
-.cmptr-div{
-    width: 50%;
-    border: solid rgb(123, 168, 18) 2px;
+    margin-left: 25%;
+    margin-bottom: 10%;
+    /* border: solid rgb(55, 113, 180) 2px; */
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+
 }
+
 .btn{
     width: 100px;
     height: 50px;
     
 }
+#cmptr-display {
+    font-size: 3.7em;
+    color: rgb(0, 255, 170);
+    position: absolute;
+    left: 65%;
+    top: 40%;
+    text-shadow: 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 1vh var(--lights);
 
-#cmptr-display{
-   font-size: 3em;
-   color: rgb(78, 2, 255);
-  
 }
+#user-display {
+    font-size: 3.7em;
+    color: rgb(0, 255, 170);
+    position: absolute;
+    left: 25%;
+    top: 40%;
+    text-shadow: 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 1vh var(--lights);
+    
+}
+
 .cmptr-description{
     width: 300px;
-    font-size: 1.3em;
-    position: relative;
-    left: 820px;
-    top: 440px;
+    font-size: 1.5em;
+    position: absolute;
+    left: 65%;
+    top: 50%;
 }
 .user-description{
     width: 300px;
-    font-size: 1.3em;
-    position: relative;
-    left: 435px;
-    top: 485px;
+    font-size: 1.5em;
+    position: absolute;
+    left: 25%;
+    top: 50%;
 
 }
-.rock{
-    display: flex;
-    margin-top: 30px;
-    margin-left: 155px;
-    justify-content: center;
-}
-.below-btn{
-    display: flex;
-    justify-content: space-around;
-    margin-left: 10px;
-    margin-top: 20px;
-}
+
 button{
     height: 50px;
     width: 100px;
-    border-radius: 9px;
+    background: none;
+    border: 0;
+}
+button img{
+    height: 80px;
 }
 button:hover{
     cursor: pointer;
+} 
+
+.red-shadow{
+    text-shadow : 0 0 5px #ff0000, 0 0 15px #ff0000, 0 0 20px #ff0000, 0 0 40px #ff0000, 0 0 60px #0b0a2b, 0 0 10px #ff0000, 0 0 98px #06071a;
+
+}
+
+.green-shadow{
+    text-shadow : 0 0 5px #1ad352, 0 0 15px #1ad352, 0 0 20px #1ad352, 0 0 40px #1ad352, 0 0 60px #0b0a2b, 0 0 10px #1ad352, 0 0 98px #06071a;
+
 }
 
 @media screen and (max-width:767px){
