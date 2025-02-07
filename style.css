@@ -9,6 +9,15 @@ body{
     --lights:rgb(59, 35, 196);
 }
 
+i{
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    
+}
+
 .main-body{
     width: 100vw;
     height: 100%;
