@@ -122,9 +122,10 @@ button:hover{
 @media screen and (max-width:767px){
 
     .result-box{
-        font-size: 2em;
+        font-size: 2.5em;
         width: 60vw;
         height: 100px;
+        margin-top: 40%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -132,21 +133,21 @@ button:hover{
     }
     .btn-div{
         width: 50%;
-        margin-left: 10%;
+        margin-left: 15%;
         margin-bottom: 70%;  
     }
     
     #cmptr-display {
         font-size: 2em;
         position: absolute;
-        left: 63%;
-        top: 30%;    
+        left: 61%;
+        top: 35%;    
     }
     #user-display {
         font-size: 2em;
         position: absolute;
         left: 15%;
-        top: 30%;        
+        top: 35%;        
     }
     
     .cmptr-description{
@@ -154,14 +155,14 @@ button:hover{
         font-size: 1.2em;
         position: absolute;
         left: 57%;
-        top: 35%;
+        top: 38%;
     }
     .user-description{
         width: 150px;
         font-size: 1.2em;
         position: absolute;
-        left: 13%;
-        top: 35%;
+        left: 14%;
+        top: 38%;
     
     }
     .red-shadow{
@@ -178,6 +179,6 @@ button:hover{
         margin-left: 2%;
     }
     button img{
-        height: 65px;
+        height: 70px;
     }
 }
