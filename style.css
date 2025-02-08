@@ -8,6 +8,9 @@ body{
     font-style: normal;
     --lights:rgb(59, 35, 196);
 }
+a{
+    text-decoration: none;
+}
 
 i{
     font-size: 2em;
@@ -117,48 +120,64 @@ button:hover{
 }
 
 @media screen and (max-width:767px){
-.game-ui {
-        width: 80vw;
-        height: 200px;
-        margin-left: 40px;
-    }
-button{
-        font-size: 8px;
-        height: 30px;
-        width: 50px;
-        border-radius: 9px;
-    }    
-.rock{
-        display: flex;
-        margin-top: 40px;
-        margin-left: 25px;
-        justify-content: center;
-    }  
-#result-box{
+
+    .result-box{
         font-size: 2em;
-        width: 80vw;
+        width: 60vw;
         height: 100px;
-        margin-top: 50%;
-        margin-left: 10%;      
-
-}
-#cmptr-display{
-    font-size: 2em;
-}
-.cmptr-description{
-    font-size: 1em;
-    position: relative;
-    left: 230px;
-    top: 510px;
-    width: 140px;
-
-}
-.user-description{
-    font-size: 1.1em;
-    position: relative;
-    left: 85px;
-    top: 545px;
-    width: 140px;
-}
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-shadow: 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 1vh var(--lights);
+    }
+    .btn-div{
+        width: 50%;
+        margin-left: 10%;
+        margin-bottom: 70%;  
+    }
     
+    #cmptr-display {
+        font-size: 2em;
+        position: absolute;
+        left: 63%;
+        top: 30%;    
+    }
+    #user-display {
+        font-size: 2em;
+        position: absolute;
+        left: 15%;
+        top: 30%;        
+    }
+    
+    .cmptr-description{
+        width: 150px;
+        font-size: 1.2em;
+        position: absolute;
+        left: 57%;
+        top: 35%;
+    }
+    .user-description{
+        width: 150px;
+        font-size: 1.2em;
+        position: absolute;
+        left: 13%;
+        top: 35%;
+    
+    }
+    .red-shadow{
+        text-shadow : 0 0 5px #ff0000, 0 0 15px #ff0000, 0 0 20px #ff0000, 0 0 40px #ff0000, 0 0 60px #0b0a2b, 0 0 10px #ff0000, 0 0 98px #06071a;
+    
+    }
+    
+    .green-shadow{
+        text-shadow : 0 0 5px #1ad352, 0 0 15px #1ad352, 0 0 20px #1ad352, 0 0 40px #1ad352, 0 0 60px #0b0a2b, 0 0 10px #1ad352, 0 0 98px #06071a;
+    
+    }
+    i{
+        font-size: 1.5em;
+        margin-left: 2%;
+    }
+    button img{
+        height: 65px;
+    }
 }
