@@ -44,6 +44,16 @@ i{
 
 
 }
+
+.score{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1.8%;
+    font-size: 2.4em;
+
+}
+
 .btn-div{
     width: 50%;
     margin-left: 25%;
@@ -131,23 +141,28 @@ button:hover{
         align-items: center;
         text-shadow: 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 1vh var(--lights);
     }
+    .score{
+        margin-top: 0%;
+        font-size: 2.4em;
+    
+    }
     .btn-div{
         width: 50%;
         margin-left: 15%;
-        margin-bottom: 70%;  
+        margin-bottom: 80%;  
     }
     
     #cmptr-display {
         font-size: 2em;
         position: absolute;
         left: 61%;
-        top: 35%;    
+        top: 40%;    
     }
     #user-display {
         font-size: 2em;
         position: absolute;
         left: 15%;
-        top: 35%;        
+        top: 40%;        
     }
     
     .cmptr-description{
@@ -155,14 +170,14 @@ button:hover{
         font-size: 1.2em;
         position: absolute;
         left: 57%;
-        top: 38%;
+        top: 43%;
     }
     .user-description{
         width: 150px;
         font-size: 1.2em;
         position: absolute;
         left: 14%;
-        top: 38%;
+        top: 43%;
     
     }
     .red-shadow{
@@ -175,7 +190,7 @@ button:hover{
     
     }
     i{
-        font-size: 1.5em;
+        font-size: 1.7em;
         margin-left: 2%;
         
     }
